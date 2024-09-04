@@ -1,0 +1,4 @@
+.env
+frappe/development/apps.json
+frappe/development/frappe-bench/
+mariadb/
