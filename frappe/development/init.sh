@@ -1,6 +1,6 @@
 #!bin/bash
 
-python installer.py --site-name $FRAPPE_SITE_NAME --admin-password $FRAPPE_ADMIN_PASSWORD
+python installer.py --site-name $FRAPPE_SITE_NAME --admin-password $FRAPPE_ADMIN_PASSWORD --verbose
 
 if [ $? -eq 0 ]; then
     cd frappe-bench
